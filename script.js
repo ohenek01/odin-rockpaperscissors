@@ -4,14 +4,12 @@ function getComputerChoice(){
     console.log("Computer chose " + compChoice);
     return compChoice;
 }
-// console.log(getComputerChoice());
 
 function getHumanChoice(){
     let choice = prompt("Rock, Paper, Scissors");
     console.log("You chose " + choice);
     return choice;
 }
-// console.log(getHumanChoice());
 
 
 function playGame(){
