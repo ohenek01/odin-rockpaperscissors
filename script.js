@@ -39,7 +39,7 @@ pbtn.addEventListener("click", (e) => {
     if(humanScore < 5 && computerScore < 5){
         playRound(choice, getComputerChoice())
     }
-    else pbtn.disabled = !rbtn.disabled;
+    else pbtn.disabled = !pbtn.disabled;
 })
 
 sbtn.addEventListener("click", (e) => {
@@ -47,7 +47,7 @@ sbtn.addEventListener("click", (e) => {
     if(humanScore < 5 && computerScore < 5){
         playRound(choice, getComputerChoice())
     }
-    else sbtn.disabled = !rbtn.disabled;
+    else sbtn.disabled = !sbtn.disabled;
 })
 
 function playRound(humanChoice, computerChoice){
